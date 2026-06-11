@@ -4,12 +4,12 @@ import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 export function AboutPage() {
   return (
     <div className="min-h-screen pt-[150px] pb-16 sm:pb-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-5">
         <div className="grid lg:grid-cols-2 gap-5 items-start">
           {/* Left side - About text */}
           <div className="bg-[#f7f7f9] rounded-3xl p-6 sm:p-8 lg:p-10">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl">What I'm bout.</h1>
-            
+            <div className="h-px bg-gray-200 mt-6 mb-6"></div>
             <div className="space-y-6 mt-8">
               <div>
                 <h2 className="text-xs uppercase tracking-wider text-gray-400 mb-3">WHERE I'M FROM</h2>

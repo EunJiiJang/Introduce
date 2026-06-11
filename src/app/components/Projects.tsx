@@ -9,7 +9,7 @@ export function Projects() {
 
   return (
     <section id="projects" className="pt-0 pb-16 sm:pb-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {projects.map((project) => (
             <article
@@ -31,8 +31,9 @@ export function Projects() {
                     <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
                       {project.title}
                     </h3>
-                    <p className="text-gray-600">{project.summary}</p>
+                    <p className="text-gray-600">{project.summary}</p>                  
                   </div>
+                  <div className="h-px bg-gray-200 mt-6 mb-6"></div>
                   <a
                     href={project.liveUrl}
                     target="_blank"

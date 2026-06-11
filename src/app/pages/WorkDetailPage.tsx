@@ -10,7 +10,7 @@ export function WorkDetailPage() {
   if (!project) {
     return (
       <div className="min-h-screen pt-[150px] pb-16 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-5">
           <h1 className="text-2xl font-semibold text-gray-900 mb-4">
             프로젝트를 찾을 수 없어요.
           </h1>
@@ -24,7 +24,7 @@ export function WorkDetailPage() {
 
   return (
     <div className="min-h-screen pt-[150px] pb-16 sm:pb-20 bg-white">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-5">
         <div className="max-w-[800px] w-full mx-auto">
           <div className="mb-8 sm:mb-10">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-900">
